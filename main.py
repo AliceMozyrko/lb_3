@@ -1,23 +1,23 @@
 class Device:
-    def call (self): return 'Device '
+    def call (self): return 'Device'
 
 class Radiomodule(Device):
-        def call (self): return 'Радіомодуль '
+        def call (self): return 'Радіомодуль'
 
 class Buttons(Device):
-    def call (self): return 'Кнопки '
+    def call (self): return 'Кнопки'
 
 class Battery(Device):
-    def call (self): return 'Батарея '
+    def call (self): return 'Батарея'
 
 class Screen(Device):
-    def call (self): return 'Екран '
+    def call (self): return 'Екран'
 
 class Processor(Device):
-    def call (self): return 'Процесор '
+    def call (self): return 'Процесор'
 
 class Sensor(Device):
-    def call (self): return 'Сенсор '
+    def call (self): return 'Сенсор'
 
 # Класи, що містять компоненти
 class Radio(Radiomodule, Buttons, Battery):
